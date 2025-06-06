@@ -1,0 +1,104 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#topo{
+	height: 90px;
+    background-color: #797c7b;
+	text-align: center;
+	
+}
+#subtopo{
+	padding: 8px;
+    background-color: #f4f4f4;
+
+}
+
+#menu{
+	background-color: rgb(87, 84, 84);
+}
+#menu ul, li{
+	display: inline-table;
+	padding: 30px 20px;
+	cursor: pointer;
+}
+#menu ul li a{
+	text-decoration: nome;
+	color: #313333;
+}
+#menu ul li:hover{
+	background-color: rgba(105, 105, 105, 0.87);
+}
+
+#slider {
+	overflow: hidden;
+}
+#slider figure {
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	animation: 20s slider infinite;
+}
+#slider figure img {
+	width: 20%;
+	float: left;
+}
+
+@keyframes slider {
+	0% {
+		left: 0;
+	}
+	20% {
+		left: 0;
+	}
+	25% {
+		left: -100%;
+	}
+	45% {
+		left: -100%;
+	}
+	50% {
+		left: -200%;
+	}
+	70% {
+		left: -200%;
+	}
+	75% {
+		left: -300%;
+	}
+	95% {
+		left: -300%;
+	}
+	100% {
+		left: -400%;
+	}
+}
+
+img{
+	max-width: 90%;
+	width: 10cm;
+	height: 12cm;
+	object-fit: contain;
+}
+
+/* Estilos do rodapé */
+footer {
+    background-color: #474747;
+    color: rgb(107, 101, 101);
+    padding: 100px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+footer p {
+    font-size: 14px;
+}
